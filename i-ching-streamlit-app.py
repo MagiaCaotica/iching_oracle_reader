@@ -165,13 +165,12 @@ st.sidebar.header("Donate with PayPal")
 
 paypal_button_html = """
 <div class="centered-text">
-    <a href="https://www.paypal.com/donate/?business=LND8CC9B5A8NA&no_recurring=0&item_name=Thank+you+for+supporting+the+Digital+I-Ching+Oracle.+Your+contribution+helps+keep+the+site+online.&currency_code=USD" target="_blank">
-        <img src="https://www.paypalobjects.com/es_ES/i/btn/btn_donateCC_LG.gif" alt="Donar con PayPal">
+    <a href="https://www.paypal.com/donate/?business=alekos200@yahoo.es&no_recurring=0&item_name=Thank+you+for+supporting+the+Digital+I-Ching+Oracle.+Your+contribution+helps+keep+the+site+online.&currency_code=USD" target="_blank">
+        <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal">
     </a>
 </div>
 """
-# Nota: He generado un enlace de donación de PayPal más robusto para ti. Si prefieres usar el email directo, puedes construir una URL, pero los botones oficiales son más seguros y confiables para los usuarios.
-
+# Note: I have generated a more robust PayPal donation link for you. If you prefer to use the direct email, you can build a URL, but official buttons are safer and more reliable for users.
 st.sidebar.markdown(paypal_button_html, unsafe_allow_html=True)
 
 st.sidebar.markdown("---")
